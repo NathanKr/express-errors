@@ -68,8 +68,8 @@ app.get("/api5", function(req, res) {
  
 app.get("/api6", function(req, res, next) {
   //   ******* a-synchronous code *******
-  //   --- This WILL STOP the server !!!!!
-  //   --- express does not know to handle this
+  //   --- This will not stop the server !!!!!
+  //   --- express will handle the error and send status code 500 + error description
   logUrl(req);  
   setTimeout(function() {
     try {
