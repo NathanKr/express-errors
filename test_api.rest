@@ -2,3 +2,17 @@ GET http://localhost:8080/api1
 
 ###
 GET http://localhost:8080/api2
+
+###
+GET http://localhost:8080/api3
+
+ 
+### 
+GET http://localhost:8080/api4
+
+
+###
+GET http://localhost:8080/api5
+
+###
+GET http://localhost:8080/api6
